@@ -2,7 +2,7 @@ import express from 'express';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import { v4 as uuidv4 } from 'uuid';
-import { router } from './routes/router';
+import router from './routes/router.js';
 
 const app = express();
 app.use(cors());

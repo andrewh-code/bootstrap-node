@@ -1,7 +1,7 @@
-import express, {Router} from 'express';
+import express from 'express';
 
 // import controllers
-import HelloController from '../controller/HelloController';
+import HelloController from '../controller/HelloController.js';
 
 
 const router = express.Router();
